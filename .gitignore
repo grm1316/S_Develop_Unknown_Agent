@@ -1,0 +1,89 @@
+# ==== 빌드 산출물 디렉토리 ====
+doc/
+bin/
+lib/
+moc/
+obj/
+util/
+zip/
+
+# ==== Qt Creator / qmake 파일 ====
+*.pro.user*
+*.qmake.stash
+*.qmake.cache
+.qtc_clangd
+Makefile*
+*.moc
+*.qrc.dep
+*.qmlc
+*.jsc
+
+# ==== Visual Studio 파일 ====
+*.pdb
+*.idb
+*.ilk
+*.obj
+*.pch
+*.log
+*.tlog
+*.tmp
+*.cache
+*.manifest
+*.res
+*.exp
+
+# ==== Qt Creator 빌드 산출 디렉토리 ====
+src/Unknown_Console_Agent/debug/
+src/Unknown_Console_Agent/release/
+src/Unknown_Console_Agent/build/
+
+src/Unknowon_Server/build/
+
+# ==== IDE 환경설정 파일 ====
+.vscode/
+.idea/
+
+# ==== 문서/테스트 파일 ====
+*.md
+test_*.cpp
+src/Unknowon_Server/CMakeLists.txt.user.39cda08
+src/Unknowon_Server/CMakeLists.txt.user.9699572
+src/Unknowon_Server/CMakeLists.txt.user.BZYVOP
+src/Unknowon_Server/CMakeLists.txt.user.FVkKQw
+src/Unknowon_Server/CMakeLists.txt.user.RCoeoY
+src/Unknowon_Server/CMakeLists.txt.user.SDwmOJ
+src/Unknowon_Server/CMakeLists.txt.user.uXieth
+src/Unknowon_Server.zip
+src/Unknown_Console_Agent/브라우저 기존꺼 통합본.zip
+src/Unknown_Console_Agent_0914.zip
+src/에이전트 버전 3차 0915.zip
+src/0917.zip
+src/에이전트 버전 3.3차 0918
+src/에이전트 버전 3.3차 0918.zip
+src/에이전트 중간발표 버전 0925.zip
+src/학습용데이터수집 에이전트 0925.zip
+src/브라우저 기존꺼 통합본.zip
+src/에이전트 버전 4차 서비스용 0928.zip
+src/에이전트 버전 4차 서비스용(학습용과 데이터 형태 맞춤)0930.zip
+src/학습용데이터수집 에이전트 0930.zip
+
+# ==== 민감 정보가 포함된 설정 파일 ====
+config.ini
+*.ini
+!config.ini.example
+
+# ==== 로그 파일 ====
+*.log
+forensic_server.log
+
+# ==== 빌드 산출물 ====
+*.exe
+*.dll
+build/
+cmake-build-*/
+out/
+src/unknown_client.zip
+src/암호화 적용한 버전 최종.zip
+src/암호화 적용한 버전1128.zip
+src/에이전트 최종 버전(1123).zip
+src/에이전트1123.zip
